@@ -1,0 +1,6 @@
+names:
+- sign
+nc: 1
+test: /content/drive/MyDrive/yoloSign1/test/images
+train: /content/drive/MyDrive/yoloSign1/train/images
+val : /content/drive/MyDrive/yoloSign1/valid/images
