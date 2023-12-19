@@ -294,10 +294,10 @@ def main():
     data_yaml = base_path+"/data.yaml"
 
     # Train YOLO model
-    train_yolo(model_dir_train, data_yaml, epochs=1, img_size=640)
+    train_yolo(model_dir_train, data_yaml, epochs=15, img_size=640)
 
 
-     # COMMENT : need to automate the output of yolo model file into a known place so that i can automate the path
+    # COMMENT : need to automate the output of yolo model file into a known place so that i can automate the path
 
     # Validate model
 
